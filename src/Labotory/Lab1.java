@@ -1,4 +1,4 @@
-package labotory;
+package Labotory;
 
 import java.util.Scanner;
 
