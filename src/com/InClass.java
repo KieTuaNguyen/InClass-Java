@@ -1,4 +1,4 @@
-package com.arthur;
+package com;
 
 import java.util.Scanner;
 

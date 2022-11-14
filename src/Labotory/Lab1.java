@@ -1,8 +1,8 @@
-package com.arthur;
+package Labotory;
 
 import java.util.Scanner;
 
-public class Lab {
+public class Lab1 {
   public static void main(String[] args) {
     System.out.println("Exercise 1: ");
     Ex1();
