@@ -1,4 +1,4 @@
-package com;
+package inclass;
 
 import java.util.Scanner;
 
