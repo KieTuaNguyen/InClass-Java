@@ -1,15 +1,13 @@
 package labotory.lab5.Store;
 
-public class Restaurant extends Store{
+public class Restaurant extends Store {
     private int numberPeopleEveryYear;
     private double averagePricePerPerson;
-    private double averageTaxesPerYear;
 
-    public Restaurant(String name, int numberPeopleEveryYear, double averagePricePerPerson, double averageTaxesPerYear) {
+    public Restaurant(String name, int numberPeopleEveryYear, double averagePricePerPerson) {
         super(name);
         this.numberPeopleEveryYear = numberPeopleEveryYear;
         this.averagePricePerPerson = averagePricePerPerson;
-        this.averageTaxesPerYear = averageTaxesPerYear;
     }
 
     public int getNumberPeopleEveryYear() {
@@ -28,12 +26,8 @@ public class Restaurant extends Store{
         this.averagePricePerPerson = averagePricePerPerson;
     }
 
-    public double getAverageTaxesPerYear() {
-        return averageTaxesPerYear;
-    }
-
-    public void setAverageTaxesPerYear(double averageTaxesPerYear) {
-        this.averageTaxesPerYear = averageTaxesPerYear;
+    public double getAvgTaxesPerYear() {
+        return numberPeopleEveryYear * averagePricePerPerson * SALEJAZJATE;
     }
 
     @Override
@@ -41,6 +35,6 @@ public class Restaurant extends Store{
         return "Name" + getName() +
                 "\nThe number of people  are  served  every  year : " + numberPeopleEveryYear +
                 "\nThe average price per person: " + averagePricePerPerson +
-                "\nThe  average  taxes per  year: " + averageTaxesPerYear;
+                "\nThe  average  taxes per  year: " + getAvgTaxesPerYear();
     }
 }
