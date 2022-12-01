@@ -27,7 +27,7 @@ public class Restaurant extends Store {
     }
 
     public double getAvgTaxesPerYear() {
-        return numberPeopleEveryYear * averagePricePerPerson * SALEJAZJATE;
+        return (double) (numberPeopleEveryYear * averagePricePerPerson * SALEJAZJATE);
     }
 
     @Override

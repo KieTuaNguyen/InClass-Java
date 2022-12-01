@@ -4,61 +4,61 @@ import java.util.Scanner;
 
 public class lab1 {
   public static void main(String[] args) {
-    System.out.println("Exercise 1: ");
-    Ex1();
-    System.out.println("\n");
+    // System.out.println("Exercise 1: ");
+    // Ex1();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 2: ");
-    Ex2();
-    System.out.println("\n");
+    // System.out.println("Exercise 2: ");
+    // Ex2();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 3: ");
-    Ex3();
-    System.out.println("\n");
+    // System.out.println("Exercise 3: ");
+    // Ex3();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 4: ");
-    Ex4();
-    System.out.println("\n");
+    // System.out.println("Exercise 4: ");
+    // Ex4();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 5: ");
-    Ex5();
-    System.out.println("\n");
+    // System.out.println("Exercise 5: ");
+    // Ex5();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 6: ");
-    Ex6();
-    System.out.println("\n");
+    // System.out.println("Exercise 6: ");
+    // Ex6();
+    // System.out.println("\n");
 
     System.out.println("Exercise 7: ");
     Ex7();
     System.out.println("\n");
 
-    System.out.println("Exercise 8: ");
-    Ex8();
-    System.out.println("\n");
+    // System.out.println("Exercise 8: ");
+    // Ex8();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 9: ");
-    Ex9();
-    System.out.println("\n");
+    // System.out.println("Exercise 9: ");
+    // Ex9();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 10: ");
-    Ex10();
-    System.out.println("\n");
+    // System.out.println("Exercise 10: ");
+    // Ex10();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 11: ");
-    Ex11();
-    System.out.println("\n");
+    // System.out.println("Exercise 11: ");
+    // Ex11();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 12: ");
-    Ex12();
-    System.out.println("\n");
+    // System.out.println("Exercise 12: ");
+    // Ex12();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 13: ");
-    Ex13();
-    System.out.println("\n");
+    // System.out.println("Exercise 13: ");
+    // Ex13();
+    // System.out.println("\n");
 
-    System.out.println("Exercise 14: ");
-    Ex14();
-    System.out.println("\n");
+    // System.out.println("Exercise 14: ");
+    // Ex14();
+    // System.out.println("\n");
   }
 
   public static void Ex1() {
